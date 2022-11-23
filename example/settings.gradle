@@ -1,0 +1,3 @@
+include ':Kaizen SDK'
+include ':app'
+rootProject.name = "Kaizen Storybook"

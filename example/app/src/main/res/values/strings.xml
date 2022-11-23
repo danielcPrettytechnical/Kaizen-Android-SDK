@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Kaizen Storybook</string>
+    <string name="kaizen_components_text">Kaizen Components</string>
+    <string name="pitch_component_title_text">Pitch Component</string>
+    <string name="pitch_component_description_text">The Pitch Component shows what is happening on
+        the field in real time. For the implementation, it requires setting the height
+        (in case its wrapped in a Constraint Layout), so the field can fit inside the component.
+    </string>
+    <string name="example_component_text">ExampleComponent</string>
+    <string name="stats_component_title_text">Stats Component</string>
+    <string name="swipe_component_title_text">Swipe Component</string>
+    <string name="stats_component_description_text">The Stats Component shows what is happening on
+        the during the game in real time(e.g. Ball Possession). For the implementation, it requires setting the height
+        (in case its wrapped in a Constraint Layout), so the stats can fit inside the component.
+    </string>
+    <string name="summary_component_title_text">Summary Component</string>
+    <string name="summary_component_description_text">The Summary Component inflate a summary stats
+        box and current show game statistics, such as number of red and yellow card, match goals,
+        miss occasions, and much more.. For the implementation, it requires setting the height
+        (in case its wrapped in a Constraint Layout), so the stats can fit inside the component.
+    </string>
+    <string name="swipe_component_description_text">The Swipe Component shows three components:Momentum,
+        Pitch and Stats.
+    </string>
+    <string name="team_up_component_title_text">Team LineUp Component</string>
+    <string name="standings_component_title_text">Standings Component</string>
+    <string name="match_incidents_title_text">Match Incidents</string>
+    <string name="momentum_component_title_text">Momentum Component</string>
+    <string name="match_id_title_text">Match ID</string>
+    <string name="load_match_text">Load Match</string>
+    <string name="h2h_component">H2H Component</string>
+</resources>

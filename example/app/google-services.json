@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "35351235607",
+    "project_id": "kaizensdk",
+    "storage_bucket": "kaizensdk.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35351235607:android:58b52ee7d8f2f7f16ea052",
+        "android_client_info": {
+          "package_name": "com.prettytechnical.kaizenstorybook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "35351235607-scebsfucuqiaieq8kfbct2nck4skv6u2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsLOPIgmX4nb_qM91__6pzKSl37yqhOCU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "35351235607-scebsfucuqiaieq8kfbct2nck4skv6u2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "35351235607-u0bdo9c20r4se6c5nmhdmjq6kd095ma2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.prettytechnical.kaizen.storybook"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

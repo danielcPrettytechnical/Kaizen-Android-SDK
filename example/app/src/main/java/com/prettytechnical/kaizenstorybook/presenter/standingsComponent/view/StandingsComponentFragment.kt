@@ -27,6 +27,12 @@ class StandingsComponentFragment : Fragment() {
         viewModel = ViewModelProvider(this).get(StandingsComponentViewModel::class.java)
         standingsComponentView = view.findViewById(R.id.stStandingsComponent)
         standingsComponentView.componentParams = ComponentParams(MatchId.value)
+        standingsComponentView.didChangeOptimalSize = { _, width ->
+            if (width != null) {
+                standingsComponentView.layoutParams.width = width
+            }
+            standingsComponentView.requestLayout()
+        }
         standingsComponentView.loadView()
         return view
     }

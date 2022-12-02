@@ -29,6 +29,10 @@ class PitchComponentFragment : Fragment() {
         pitchComponentView.componentParams = ComponentParams(MatchId.value,
             LocalizationEnum.english)
         pitchComponentView.loadView()
+        pitchComponentView.didChangeOptimalSize = { height, _ ->
+            pitchComponentView.layoutParams.height = height
+            pitchComponentView.requestLayout()
+        }
         viewModel = ViewModelProvider(this).get(PitchComponentViewModel::class.java)
         return view
     }

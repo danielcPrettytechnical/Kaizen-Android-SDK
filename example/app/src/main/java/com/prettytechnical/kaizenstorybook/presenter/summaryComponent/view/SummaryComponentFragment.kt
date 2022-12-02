@@ -29,6 +29,10 @@ class SummaryComponentFragment : Fragment() {
         summaryComponentView = view.findViewById(R.id.summaryComponentView)
         summaryComponentView.componentParams = ComponentParams(MatchId.value)
         summaryComponentView.loadView()
+        summaryComponentView.didChangeOptimalSize = { height, _ ->
+            summaryComponentView.layoutParams.height = height
+            summaryComponentView.requestLayout()
+        }
         viewModel = ViewModelProvider(this).get(SummaryComponentViewModel::class.java)
         return view
     }

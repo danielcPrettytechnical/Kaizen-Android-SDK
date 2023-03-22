@@ -36,7 +36,7 @@ class SwipeComponentFragment : Fragment() {
 
     private fun initSwipeComponent(view: View) {
         frameLayout = view.findViewById(R.id.swipeFrameLayout)
-        val swipeFragment = SwipeViewFragment.newInstance(false, true,
+        val swipeFragment = SwipeViewFragment.newInstance(true, true,
             true)
         val params = ComponentParams(MatchId.value, LocalizationEnum.english)
         swipeFragment.configure(params)

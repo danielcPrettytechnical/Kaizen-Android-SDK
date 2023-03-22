@@ -1,3 +1,12 @@
+## Version 1.0.6
+- Fix Missing error information
+- Fix Same height for pitch/overview
+- Fix Pitch cut in swiped view
+- Fix LeakCanary has reported memory leak issues
+- Fix Big gap in scrolling in tab H2H
+- Fix Initialization phase is skipped
+- Fix Pass height/percentage of the Bottomsheet dialog
+
 ## Version 1.0.5
 - Initialize the SDK (especially, if it has a heavy task to do) in Application class 
 - Add access token in component params

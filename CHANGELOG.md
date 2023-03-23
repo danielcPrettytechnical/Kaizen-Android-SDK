@@ -1,3 +1,6 @@
+## Version 1.1.0
+- Add isMobile for web socket 
+
 ## Version 1.0.6
 - Fix Missing error information
 - Fix Same height for pitch/overview

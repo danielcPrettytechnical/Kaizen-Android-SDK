@@ -1,6 +1,8 @@
 # Kaizen SDK
 Kaizen is a power component development kit made with love from the pretty technical team for the Kaizen project.
 
+Check deployment and release process [**Deployment and Release**](https://github.com/danielcPrettytechnical/Kaizen-Android-SDK/blob/main/Deployment.md)
+
 # Requirements
 
  -   Android Studio 4.0.0+
